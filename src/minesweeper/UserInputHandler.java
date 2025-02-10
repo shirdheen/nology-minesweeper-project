@@ -20,7 +20,7 @@ public class UserInputHandler {
             // Regex has been used to allow multiple spaces
 
             if (parts.length != 2) {
-                System.out.println("Oops! Invalid input. Please enter 2 numbers within separated by a space");
+                System.out.println("Oops! Invalid input. Please enter 2 numbers separated by a space");
                 continue;
             } // If input has less or more than 2 values, an error is thrown, the loop is executed again
 
