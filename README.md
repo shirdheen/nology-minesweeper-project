@@ -30,7 +30,20 @@
 1. Clone the repository
 
 ```bash
-git clone repo-link
+git clone git@github.com:shirdheen/nology-minesweeper-project.git
+cd nology-minesweeper-project/src
+```
+
+2. Compile the game
+
+```bash
+javac App.java
+```
+
+3. Run the game
+
+```bash
+java App
 ```
 
 ## Design Goals/Approach
