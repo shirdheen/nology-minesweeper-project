@@ -80,18 +80,18 @@ public class Board {
     }
 
     public void renderBoard() {
-        System.out.print("  "); // For column alignment
+        System.out.print("    "); // For column alignment
 
         for (int col = 0; col < GRID_SIZE; col++) {
-            System.out.print(col + " "); // Print column numbers on a single line
+            System.out.print("[" + col + "] "); // Print column numbers on a single line
         }
 
         System.out.println(); // Moves to a new line after printing the column headers
 
         for (int row = 0; row < GRID_SIZE; row++) { // Iterates through each row of the grid
-            System.out.print(row + " "); // Prints the current row number at the beginning of each row
+            System.out.print("[" + row + "] "); // Prints the current row number at the beginning of each row
             for (int col = 0; col < GRID_SIZE; col++) { // Loops through each column
-                System.out.print(grid[row][col] + " "); // Renders the content of the current cell (_ - hidden cell)
+                System.out.print("[" + grid[row][col] + "] "); // Renders the content of the current cell (_ - hidden cell)
             }
             System.out.println(); // New line once a full row is printed
         }
